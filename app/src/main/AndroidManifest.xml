@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.loginius.loginiuspartners">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Project.ProjectDoneActivity"></activity>
+        <activity android:name=".Activity.Developer.PandingActivity" />
+        <activity android:name=".Activity.Developer.ReceivedActivity" />
+        <activity android:name=".Activity.Project.OnGoingProjectActivity" />
+        <activity android:name=".Activity.Project.ProjectActivity" />
+        <activity android:name=".Activity.Project.ProjectWorkActivity" />
+        <activity android:name=".Activity.Admin.ViewStudentActivity" />
+        <activity android:name=".Activity.Project.ProjectOstActivity" />
+        <activity android:name=".Activity.Stud.StudentActivity" />
+        <activity android:name=".Activity.Admin.DevPayActivity" />
+        <activity android:name=".Activity.Admin.DeveloperActivity" />
+        <activity android:name=".Activity.Admin.AddStudentActivity" />
+        <activity android:name=".Activity.Admin.CourseActivity" />
+        <activity android:name=".Activity.Admin.AddProjectActivity" />
+        <activity android:name=".Activity.Activity_Dashboard" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

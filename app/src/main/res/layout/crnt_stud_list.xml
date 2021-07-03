@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/crnlimain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:padding="2sp">
+
+            <TextView
+                android:id="@+id/crnliid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/crnlinm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/stdnm"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:padding="2sp">
+            <TextView
+                android:id="@+id/crnlicrs"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:gravity="start|center"
+                android:layout_marginLeft="2sp"
+                android:layout_weight="3"
+                android:layout_margin="5sp"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/cl"
+                android:text="@string/course"
+                android:textSize="15sp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/cl"
+                style="@style/RippleStyleWhite"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_margin="5sp"
+                android:layout_toLeftOf="@id/ch">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/crnlicall"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/telephone" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ch"
+                style="@style/RippleStyleWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_toLeftOf="@id/dn">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/crnlichat"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/whatsapp" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/dn"
+                style="@style/RippleStyleWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5sp">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/crnlidone"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/check" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

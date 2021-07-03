@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Loginius Partners</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="version_unknown">Unknown</string>
+    <string name="app_version">Version</string>
+    <string name="default_notification_channel_id">Default</string>
+    <string name="webview_loading">Load Content... </string>
+    <string name="prtname">PARTY NAME</string>
+    <string name="prthint">Enter Party Name</string>
+    <string name="prtprnnm">CONTACT PERSON NAME</string>
+    <string name="prtCNTPERhint">Enter Contact Person Name</string>
+    <string name="cntno">CONTACT NO.</string>
+    <string name="cnthint">Enter Contact No</string>
+    <string name="prjTlt">PROJECT TITLE</string>
+    <string name="prjTlthint">Enter Project Title</string>
+    <string name="prjAmt">PROJECT AMOUNT</string>
+    <string name="prjAmthint">Enter Project Amount</string>
+    <string name="devAmt">DEVELOPMENT AMOUNT</string>
+    <string name="devAmthint">Enter Dev. Amount</string>
+    <string name="prjcmpdt">DUE DATE</string>
+    <string name="amtRec">AMOUNT RECEIVED</string>
+    <string name="amtRechint">Enter Received Amount</string>
+    <string name="devNm">DEVELOPER NAME</string>
+    <string name="devNmint">Enter Dev. Name</string>
+    <string name="devNo">DEVELOPER NO.</string>
+    <string name="devNoint">Enter Dev. Contact No.</string>
+    <string name="addPrjPage">ADD PROJECT</string>
+    <string name="addCrsPage">ADD COURSE</string>
+    <string name="crsFee">FEES</string>
+    <string name="crsFeehint">Enter Course Fee</string>
+    <string name="crsDur">COURSE DURATION</string>
+    <string name="crsDurHint">Enter Duration(month)</string>
+    <string name="crsnmhint">Enter Course Name</string>
+    <string name="crsnm">COURSE NAME</string>
+    <string name="addStdPage">ADD STUDENT</string>
+    <string name="stdname">STUDENT NAME</string>
+    <string name="stdnmhint">Enter Student Name</string>
+    <string name="stdcnno">STUDENT CONTACT NO</string>
+    <string name="stdcnnohint">Enter Contact No.</string>
+    <string name="stdftcnno">FATHER CONTACT NO.</string>
+    <string name="stdftcnnohint">Enter Father Contact No.</string>
+    <string name="stdcrs">SELECT COURSE</string>
+    <string name="stdcrsfee">COURSE FEE</string>
+    <string name="stdcrsfeehint">Course Fee</string>
+    <string name="stdrvfeehint">Enter Received Fee</string>
+    <string name="stdrvfee">RECEIVED FEE</string>
+    <string name="addasngprj">ADD<b>/</b>ASSI. PROJECT</string>
+    <string name="devname">DEVELOPER NAME</string>
+    <string name="sdevnmhint">Enter Developer Name</string>
+    <string name="devcnno">DEVELOPER CONTACT NO.</string>
+    <string name="payamthint">Enter Payment Amount.</string>
+    <string name="logout">LogOut</string>
+    <string name="addDevPage">ADD DEVELOPER</string>
+    <string name="stdnm">STUDENT NAME</string>
+    <string name="course">COURSE</string>
+    <string name="pnd">PANDING PAY.</string>
+    <string name="ongngprj">ON GOING PROJECT</string>
+    <string name="doneprj">COMP. PROJECT</string>
+    <string name="recpay">RECEIVED PAYMENT</string>
+    <string name="pndpy">PANDING PAYMENT</string>
+
+</resources>
